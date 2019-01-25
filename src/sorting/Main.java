@@ -8,9 +8,9 @@ public class Main {
         int[] array2 = new int[]{1, 2, 4,5, 5, 6, 7, 8, 1};
         int[] array3 = new int[]{1, 2, 4, 8, 5, 6, 7, 8, 6};
 
-        BubbleSort bubbleSort = new BubbleSort();
-        SelectionSort selectionSort = new SelectionSort();
-        InsertionSort insertionSort = new InsertionSort();
+        Sort bubbleSort = new BubbleSort();
+        Sort selectionSort = new SelectionSort();
+        Sort insertionSort = new InsertionSort();
 
         Printer.print(selectionSort.sort(array1));
         Printer.print(bubbleSort.sort(array2));
