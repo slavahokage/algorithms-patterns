@@ -1,6 +1,6 @@
 package sorting;
 
-import Utils.Printer;
+import utils.Printer;
 
 public class Main {
     public static void main(String[] args) {
